@@ -1,15 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-        <p>This is my new website which is hosted on GitHub Pages!</p>
-    </main>
-  </body>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Konrad</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Konrad Kowalczyk">
+  <link rel="icon" href="https://icons8.com/icon/01EGfYjBQteu/internet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="./img/avatar.jpg" />
+    </div>
+    <h1>Konrad Kowalczyk</h1>
+    <section>
+      <p>Hello! I am Konrad Kowalczyk. I work as SAP BTP Developer at Capgemini Poland SAP Department. I have passion for pixel perfect, minimal and easy to use interfaces. I'm  focused, dedicated, hard-working and willing to learn in a changing and challenging environment.</p>
+      <a href="kowalczykkon@protonmail.com" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/kondiiq" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/kowalczykkonrad/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Courses & Workshops</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>Nodejs Internal Training</h4>
+        </div>
+        <div class="descrition">
+          <p>Learning basics and cores about Node.js and Express.js for two days training</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Web Programming with JavaScript and Reactjs</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn how to create web UI with TypeScript and Reactjs Library, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
+        </div>
+      </article>
+      </section>
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>JavaScript ES5/6</li>
+            <li>Nodejs</li>
+            <li>SAPUI5</li>
+            <li>OData V2&V4</li>
+            <li>SAP Fiori</li>
+            <li>SAP Cloud Applicaiton Programming Model (CAPM)</li>
+            <li>SAP Hana Database</li>
+            <li>Postgresql</li>
+            <li>Cloud foundry</li>
+            <li>SAP Business Technology Platform(BTP) Services</li>
+            <li>GIT</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>Kyma / Kubernetes</li>
+            <li>jQuery</li>
+            <li>Golang</li>
+            <li>Java</li>
+            <li>Podman / Docker</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>🇵🇱 Polish - Native speaker</p>
+          <p>🇬🇧 English - Proficient B2/C1</p>
+          <p>🇩🇪 German - Elementary / Communicative - A2</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>2021-2023</span> <strong>Wroclaw University of Science&Technology</strong>
+        </div>
+        <div class="descrition">
+          Master Degree of ICT Engineering
+        </div>
+        <div>
+          Thesis: <strong>Comparative analysis of selected algorithms solving the knapsack problem</strong>
+        </div>
+      </article>
+
+      <article>
+        <div class='school'>
+          <span>2018-2021</span> <strong>Wroclaw University of Science&Technology</strong>
+        </div>
+        <div class="descrition">
+          Bechelor Degree of Telecommunication Engineering
+          <div>
+            Thesis: <strong>The design approaches of digital filters based on evolutionary optimization techniques</strong>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <article>
+        <div class='job-title'>
+          <span>07-2021 - 07-2022</span> <strong>Capgemini SAP Department</strong><br> <strong>Position:</strong> Application Developer Internship
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery / Node.js / SAPUI5 / SAP Fiori / Cloud Application Programming Model </p>
+          <ul class="job-description">
+            <li>Develop web application for internal Customer </li>
+            <li>Implement UI (front-end site) based on received graphic design using Freestyle UI and requirements</li>
+            <li>Co-operate with the developer team in scrum methodology</li>
+            <li>Design application data model in brainstorming sessions</li>
+            <li>Implementation of external API</li>
+            <li>Implementation Google maps service in application</li>
+          </ul>
+        </div>
+      </article>
+
+      <div class='job-title'>
+        <span>07-2022 - Now</span> <strong>Capgemini SAP Department</strong><br> <strong>Position:</strong> Application Developer
+      </div>
+      <div>
+        <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery / Podman / Jest / Node.js / SAPUI5 / SAP Fiori / Cloud Application Programming Model</p>
+        <ul class="job-description">
+          <li>Develop web application for Capgemini's Customers</li>
+          <li>Implement UI (front-end site) based on received graphic design and requirements using Fiori Freestyle UI</li>
+          <li>Create frontside test using OpaTest and Qunit framework </li>
+          <li>Design application data model </li>
+          <li>Create backend handling functions </li>
+          <li>Create backend test using Jest framework </li>
+          <li>Create template generator for projects with prettier, eslint, husky and database type configurations </li>
+          <li>Ensure good code practices are followed by performing Code Reviews  </li>
+          <li>Mentore Interns </li>
+        </ul>
+      </div>
+    </article>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: <a href="https://www.flynerd.pl/"> @kondiiq using @flynerd template</a>  / <a href="https://www.linkedin.com/in/kowalczykkonrad/">LinkedIn</a> / 2024 </p>
+  </footer>
+</body>
 </html>
